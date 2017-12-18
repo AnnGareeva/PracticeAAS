@@ -1,0 +1,3 @@
+[submodule "lcov"]
+	path = lcov
+	url = https://github.com/linux-test-project/lcov.git

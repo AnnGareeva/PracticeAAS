@@ -24,8 +24,7 @@ int main() {
       if (j % 2 == 0) {
         index = j / 2;
         values.push_back(values[index]);
-      }
-      else {
+      } else {
         index = (j - 1) / 2;
         values.push_back(values[index] + values[index + 1]);
       }
