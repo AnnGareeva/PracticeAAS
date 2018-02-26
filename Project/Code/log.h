@@ -18,6 +18,12 @@ void log(const string& tag, const int value) {
 #endif
 }
 
+void log(const string& tag, const int value, const string& tag2, const int value2) {
+#ifdef LOG_ENABLE
+	cout << tag << ": " << value << "   " << tag2 << ": " << value2 << endl;
+#endif
+}
+
 void log(const string& tag, const double value) {
 #ifdef LOG_ENABLE
 	cout << tag << ": " << value << endl;
